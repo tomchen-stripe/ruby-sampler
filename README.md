@@ -18,7 +18,7 @@ run the prompt `Write a haiku about OpenAI.` on gpt-5 three times in series.
 
 measure wall clock time and subtract user+sys cpu time to calculate blocked time on network i/o. 
 
-validate blocked time using strace on epoll_wait and futex.
+validate blocked time using strace being spent on epoll_wait and futex.
 
 # clients and calls
 
