@@ -1,0 +1,269 @@
+strace: Process 900552 attached
+strace: Process 900553 attached
+strace: Process 900554 attached
+strace: Process 900556 attached
+strace: Process 900557 attached
+strace: Process 900558 attached
+strace: Process 900559 attached
+strace: Process 900564 attached
+strace: Process 900568 attached
+strace: Process 900584 attached
+strace: Process 900586 attached
+strace: Process 900589 attached
+strace: Process 900590 attached
+strace: Process 900591 attached
+strace: Process 900592 attached
+strace: Process 900593 attached
+strace: Process 900594 attached
+strace: Process 900595 attached
+strace: Process 900596 attached
+strace: Process 900610 attached
+strace: Process 900611 attached
+strace: Process 900612 attached
+strace: Process 900613 attached
+strace: Process 900614 attached
+strace: Process 900615 attached
+strace: Process 900617 attached
+strace: Process 900618 attached
+strace: Process 900619 attached
+strace: Process 900620 attached
+strace: Process 900621 attached
+strace: Process 900622 attached
+strace: Process 900623 attached
+strace: Process 900626 attached
+strace: Process 900632 attached
+strace: Process 900634 attached
+strace: Process 900638 attached
+strace: Process 900639 attached
+strace: Process 900640 attached
+strace: Process 900641 attached
+strace: Process 900642 attached
+strace: Process 900643 attached
+strace: Process 900644 attached
+strace: Process 901943 attached
+GRPC-CLIENT: No fallback build-time service config was found, proceeding without some reliability features.: orig_service=null dest_service="kproxy-batch"
+strace: Process 903574 attached
+strace: Process 904243 attached
+strace: Process 904249 attached
+strace: Process 904252 attached
+CANONICAL-FEATURE-FLAG-PERIODIC-UPDATE-MANAGER Enabling...
+strace: Process 905414 attached
+strace: Process 905451 attached
+strace: Process 905452 attached
+GRPC-CLIENT: No fallback build-time service config was found, proceeding without some reliability features.: orig_service=null dest_service="chaos-coordinator-grpc-srv"
+Opus::Initialize.init complete
+GRPC-CLIENT: No fallback build-time service config was found, proceeding without some reliability features.: orig_service=null dest_service="llm-proxy-grpc"
+strace: Process 905513 attached
+strace: Process 905514 attached
+strace: Process 905531 attached
+strace: Process 905532 attached
+strace: Process 905596 attached
+strace: Process 905597 attached
+strace: Process 905628 attached
+strace: Process 905631 attached
+strace: Process 905681 attached
+strace: Process 905682 attached
+strace: Process 905712 attached
+strace: Process 905713 attached
+strace: Process 905763 attached
+strace: Process 905764 attached
+strace: Process 905861 attached
+strace: Process 905862 attached
+strace: Process 905951 attached
+strace: Process 905952 attached
+strace: Process 906015 attached
+strace: Process 906016 attached
+strace: Process 906071 attached
+strace: Process 906072 attached
+strace: Process 906108 attached
+strace: Process 906109 attached
+strace: Process 906153 attached
+strace: Process 906154 attached
+strace: Process 906159 attached
+strace: Process 906160 attached
+strace: Process 906190 attached
+strace: Process 906191 attached
+strace: Process 906211 attached
+strace: Process 906212 attached
+strace: Process 906243 attached
+strace: Process 906244 attached
+strace: Process 906265 attached
+strace: Process 906266 attached
+strace: Process 906304 attached
+strace: Process 906305 attached
+strace: Process 906333 attached
+strace: Process 906334 attached
+strace: Process 906388 attached
+strace: Process 906393 attached
+strace: Process 906401 attached
+strace: Process 906402 attached
+strace: Process 906432 attached
+strace: Process 906433 attached
+strace: Process 906452 attached
+strace: Process 906453 attached
+strace: Process 906454 attached
+strace: Process 906455 attached
+strace: Process 906517 attached
+strace: Process 906518 attached
+strace: Process 906532 attached
+strace: Process 906533 attached
+strace: Process 906580 attached
+strace: Process 906581 attached
+strace: Process 906600 attached
+strace: Process 906601 attached
+strace: Process 906684 attached
+strace: Process 906685 attached
+strace: Process 906700 attached
+strace: Process 906701 attached
+strace: Process 906733 attached
+strace: Process 906734 attached
+strace: Process 906757 attached
+strace: Process 906758 attached
+strace: Process 906796 attached
+strace: Process 906806 attached
+strace: Process 906873 attached
+strace: Process 906874 attached
+strace: Process 906915 attached
+strace: Process 906916 attached
+strace: Process 906948 attached
+strace: Process 906950 attached
+strace: Process 907009 attached
+strace: Process 907010 attached
+strace: Process 907017 attached
+strace: Process 907018 attached
+strace: Process 907068 attached
+strace: Process 907069 attached
+strace: Process 907086 attached
+strace: Process 907087 attached
+strace: Process 907132 attached
+strace: Process 907133 attached
+strace: Process 907159 attached
+strace: Process 907160 attached
+strace: Process 907183 attached
+strace: Process 907184 attached
+strace: Process 907185 attached
+strace: Process 907186 attached
+strace: Process 907205 attached
+strace: Process 907206 attached
+strace: Process 907263 attached
+strace: Process 907264 attached
+strace: Process 907277 attached
+strace: Process 907278 attached
+strace: Process 907305 attached
+strace: Process 907306 attached
+strace: Process 907324 attached
+strace: Process 907325 attached
+strace: Process 907458 attached
+strace: Process 907459 attached
+strace: Process 907480 attached
+strace: Process 907481 attached
+strace: Process 907519 attached
+strace: Process 907520 attached
+strace: Process 907537 attached
+strace: Process 907538 attached
+strace: Process 907568 attached
+strace: Process 907569 attached
+strace: Process 907581 attached
+strace: Process 907582 attached
+strace: Process 907604 attached
+strace: Process 907605 attached
+strace: Process 907622 attached
+strace: Process 907623 attached
+strace: Process 907665 attached
+strace: Process 907666 attached
+strace: Process 907723 attached
+strace: Process 907724 attached
+strace: Process 907974 attached
+strace: Process 907985 attached
+strace: Process 908063 attached
+strace: Process 908070 attached
+strace: Process 908112 attached
+strace: Process 908113 attached
+strace: Process 908135 attached
+strace: Process 908136 attached
+strace: Process 908161 attached
+strace: Process 908162 attached
+strace: Process 908212 attached
+strace: Process 908213 attached
+strace: Process 908325 attached
+strace: Process 908326 attached
+strace: Process 908346 attached
+strace: Process 908347 attached
+strace: Process 908401 attached
+strace: Process 908402 attached
+strace: Process 908479 attached
+strace: Process 908480 attached
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ------------------
+ 70.94  158.807852      170944       929       176 futex
+ 25.84   57.848233     1701418        34         1 epoll_pwait
+  1.55    3.464314          13    256981    242128 openat
+  0.36    0.794904          48     16294         2 read
+  0.32    0.708286           9     72135     72046 readlinkat
+  0.25    0.553180          12     43681     18995 newfstatat
+  0.20    0.447230        3021       148           pselect6
+  0.10    0.221524          22      9759           munmap
+  0.08    0.174266          11     15126        12 close
+  0.05    0.116108          19      5838           mmap
+  0.05    0.109722          11      9800           fstat
+  0.03    0.077145        1001        77        35 wait4
+  0.03    0.072133          17      4196           getdents64
+  0.03    0.065948          14      4409           clock_gettime
+  0.02    0.054890          10      5261      5258 ioctl
+  0.02    0.036205           9      3654         4 lseek
+  0.01    0.028244          10      2767           statx
+  0.01    0.024591          95       258       218 execve
+  0.01    0.023349           9      2435           getuid
+  0.01    0.021849           8      2441           geteuid
+  0.01    0.020980           8      2435           getgid
+  0.01    0.020527           8      2438           getegid
+  0.01    0.019201          34       555           sendto
+  0.01    0.018156           9      1928        10 fcntl
+  0.01    0.015716          14      1087           rt_sigprocmask
+  0.01    0.015143         360        42           clone
+  0.01    0.014674          10      1401        62 faccessat
+  0.01    0.013506          17       773           brk
+  0.01    0.012953          87       148           clone3
+  0.00    0.009222        2305         4           ppoll
+  0.00    0.009025          61       147        75 connect
+  0.00    0.008366          11       718         2 rt_sigaction
+  0.00    0.008036          18       438           mprotect
+  0.00    0.007918          14       554           getsockname
+  0.00    0.006326          17       369       210 recvfrom
+  0.00    0.004635          22       210           madvise
+  0.00    0.003273          14       229           set_robust_list
+  0.00    0.002523          13       188           rseq
+  0.00    0.002382          30        77           socket
+  0.00    0.002270          26        85           getpid
+  0.00    0.002053        1026         2           mremap
+  0.00    0.001123          20        56           write
+  0.00    0.001108          17        62           getrandom
+  0.00    0.000995          13        74           setsockopt
+  0.00    0.000904          15        60           getcwd
+  0.00    0.000755          11        67           prlimit64
+  0.00    0.000596          18        32           pipe2
+  0.00    0.000591          10        56           dup3
+  0.00    0.000416          10        38         2 rt_sigreturn
+  0.00    0.000400          10        40           set_tid_address
+  0.00    0.000262           8        32           getppid
+  0.00    0.000187          11        16           uname
+  0.00    0.000117          16         7           prctl
+  0.00    0.000107          21         5         1 epoll_ctl
+  0.00    0.000106          11         9           gettid
+  0.00    0.000097          12         8           sigaltstack
+  0.00    0.000074          14         5           eventfd2
+  0.00    0.000073          10         7           sched_getaffinity
+  0.00    0.000071           7        10           getpgid
+  0.00    0.000068          11         6           chdir
+  0.00    0.000064          12         5           getsockopt
+  0.00    0.000055          13         4         4 statfs
+  0.00    0.000053          13         4           faccessat2
+  0.00    0.000034          16         2           tgkill
+  0.00    0.000029           7         4           fadvise64
+  0.00    0.000029          14         2           timer_delete
+  0.00    0.000025          12         2           epoll_create1
+  0.00    0.000023          11         2           timer_create
+  0.00    0.000009           8         1           getresuid
+  0.00    0.000008           8         1           getresgid
+------ ----------- ----------- --------- --------- ------------------
+100.00  223.875235         475    470668    339241 total

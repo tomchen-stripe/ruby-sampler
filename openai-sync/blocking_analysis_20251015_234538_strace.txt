@@ -1,0 +1,121 @@
+strace: Process 934243 attached
+strace: Process 934245 attached
+strace: Process 934244 attached
+strace: Process 934246 attached
+strace: Process 934247 attached
+strace: Process 934248 attached
+strace: Process 934249 attached
+strace: Process 934250 attached
+strace: Process 934253 attached
+strace: Process 934260 attached
+strace: Process 934261 attached
+strace: Process 934277 attached
+strace: Process 934283 attached
+strace: Process 934284 attached
+strace: Process 934285 attached
+strace: Process 934286 attached
+strace: Process 934288 attached
+strace: Process 934289 attached
+strace: Process 934291 attached
+strace: Process 934292 attached
+strace: Process 934293 attached
+strace: Process 934297 attached
+strace: Process 934298 attached
+strace: Process 934299 attached
+strace: Process 934300 attached
+strace: Process 934301 attached
+strace: Process 934302 attached
+strace: Process 934303 attached
+strace: Process 934304 attached
+strace: Process 934305 attached
+strace: Process 934306 attached
+strace: Process 934307 attached
+strace: Process 934313 attached
+strace: Process 934314 attached
+strace: Process 934315 attached
+strace: Process 934316 attached
+strace: Process 934317 attached
+strace: Process 934321 attached
+strace: Process 934322 attached
+strace: Process 934323 attached
+strace: Process 934324 attached
+strace: Process 934325 attached
+strace: Process 935202 attached
+strace: Process 935203 attached
+strace: Process 935204 attached
+strace: Process 935205 attached
+strace: Process 936262 attached
+strace: Process 936263 attached
+strace: Process 936264 attached
+strace: Process 937827 attached
+strace: Process 937828 attached
+strace: Process 937829 attached
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ------------------
+ 35.30   29.288732     4184104         7           epoll_pwait
+ 31.34   26.000067      226087       115         5 futex
+ 31.32   25.979187     1082466        24           ppoll
+  0.70    0.584837          14     40062     35475 openat
+  0.57    0.475687          91      5224           read
+  0.26    0.212679           9     23298     23252 readlinkat
+  0.08    0.067538         888        76        35 wait4
+  0.07    0.057484          13      4247      1097 newfstatat
+  0.06    0.050638          10      4786        12 close
+  0.05    0.039015          10      3875           fstat
+  0.03    0.028419          10      2704      2689 ioctl
+  0.03    0.023849          92       257       218 execve
+  0.02    0.020185          15      1279           mmap
+  0.02    0.017020          19       877           munmap
+  0.02    0.012914           8      1506        10 fcntl
+  0.01    0.010581          12       817           clock_gettime
+  0.01    0.010151           9      1059         4 lseek
+  0.01    0.009203         224        41           clone
+  0.01    0.008633          15       550           getdents64
+  0.01    0.008083          12       638           rt_sigaction
+  0.01    0.007894           8       981           getuid
+  0.01    0.007126           7       985           geteuid
+  0.01    0.006795           6       984           getegid
+  0.01    0.006731           6       981           getgid
+  0.01    0.006003          16       372           mprotect
+  0.01    0.005653          10       529           rt_sigprocmask
+  0.00    0.003401          13       247           brk
+  0.00    0.001191          13        91           set_robust_list
+  0.00    0.001135          10       111        41 faccessat
+  0.00    0.000864          11        78           getpid
+  0.00    0.000837          14        57           getcwd
+  0.00    0.000727          66        11           clone3
+  0.00    0.000621           9        65           prlimit64
+  0.00    0.000589          20        29           pipe2
+  0.00    0.000511          15        34           write
+  0.00    0.000489          11        44           getrandom
+  0.00    0.000481           8        55           dup3
+  0.00    0.000433           8        50           rseq
+  0.00    0.000415          37        11         5 connect
+  0.00    0.000396          11        35           rt_sigreturn
+  0.00    0.000363          60         6           sendmmsg
+  0.00    0.000353           9        39           set_tid_address
+  0.00    0.000290          16        18         3 recvfrom
+  0.00    0.000225          37         6           sendto
+  0.00    0.000211          19        11           socket
+  0.00    0.000209          19        11           madvise
+  0.00    0.000208           6        31           getppid
+  0.00    0.000116          12         9           setsockopt
+  0.00    0.000089           8        10           uname
+  0.00    0.000069           6        10           getpgid
+  0.00    0.000067          11         6           sched_getaffinity
+  0.00    0.000065          10         6           getsockopt
+  0.00    0.000065          10         6           chdir
+  0.00    0.000063          12         5           eventfd2
+  0.00    0.000061          12         5           gettid
+  0.00    0.000052           8         6           sigaltstack
+  0.00    0.000051          12         4         4 statfs
+  0.00    0.000048          15         3           faccessat2
+  0.00    0.000035          11         3           prctl
+  0.00    0.000032           7         4           fadvise64
+  0.00    0.000032          10         3           getsockname
+  0.00    0.000022          11         2           timer_create
+  0.00    0.000020           9         2           timer_delete
+  0.00    0.000010          10         1           epoll_ctl
+  0.00    0.000010          10         1           epoll_create1
+------ ----------- ----------- --------- --------- ------------------
+100.00   82.959960         851     97400     62850 total

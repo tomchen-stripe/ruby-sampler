@@ -1,0 +1,73 @@
+Worker Blocking Time Analysis
+==============================
+Command: ruby sync-test.rb
+Timestamp: Wed Oct 15 23:46:36 UTC 2025
+
+Overall Timing (from /usr/bin/time):
+------------------------------------
+Elapsed (wall) time: 0:28.31
+User time: 1.06s
+System time: 0.33s
+Total CPU time: 1.390s
+CPU usage: 4%
+
+Blocking Analysis:
+------------------
+Total blocking time: 26.920s
+Blocking percentage: 95.09%
+CPU active percentage: 4.91%
+
+Context Switches:
+-----------------
+Voluntary: 820 (process yielding, typically waiting for I/O)
+Involuntary: 20 (preempted by scheduler)
+
+System Call Time Breakdown (from strace):
+------------------------------------------
+
+Network I/O syscalls:
+ 35.30   29.288732     4184104         7           epoll_pwait
+ 31.32   25.979187     1082466        24           ppoll
+  0.00    0.000415          37        11         5 connect
+  0.00    0.000363          60         6           sendmmsg
+  0.00    0.000290          16        18         3 recvfrom
+  0.00    0.000225          37         6           sendto
+  0.00    0.000010          10         1           epoll_ctl
+  0.00    0.000010          10         1           epoll_create1
+
+Top syscalls by time:
+ 35.30   29.288732     4184104         7           epoll_pwait
+ 31.34   26.000067      226087       115         5 futex
+ 31.32   25.979187     1082466        24           ppoll
+  0.70    0.584837          14     40062     35475 openat
+  0.57    0.475687          91      5224           read
+  0.26    0.212679           9     23298     23252 readlinkat
+  0.08    0.067538         888        76        35 wait4
+  0.07    0.057484          13      4247      1097 newfstatat
+  0.06    0.050638          10      4786        12 close
+  0.05    0.039015          10      3875           fstat
+
+Summary line:
+  (no data)
+
+Interpretation:
+---------------
+⚠️  HEAVILY I/O BOUND (95.09% blocked)
+
+The worker spends 95.09% of its time blocked waiting for I/O.
+Only 4.91% of time is spent actively processing.
+
+Current worker utilization: 4.91%
+Potential throughput gain if waits eliminated: 20.4x
+
+Recommendations:
+  • Use async I/O or streaming to reduce blocking
+  • Consider connection pooling / HTTP keep-alive
+  • Make parallel/concurrent requests where possible
+  • A single worker can only process work 4.91% of the time
+
+Data files:
+-----------
+Time output: blocking_analysis_20251015_234538_time.txt
+Strace output: blocking_analysis_20251015_234538_strace.txt
+This summary: blocking_analysis_20251015_234538_summary.txt

@@ -1,0 +1,64 @@
+Worker Blocking Time Analysis
+==============================
+Command: ruby poll-test.rb
+Timestamp: Wed Oct 15 23:41:07 UTC 2025
+
+Overall Timing (from /usr/bin/time):
+------------------------------------
+Elapsed (wall) time: 1:09.40
+User time: 12.40s
+System time: 2.04s
+Total CPU time: 14.440s
+CPU usage: 20%
+
+Blocking Analysis:
+------------------
+Total blocking time: 54.960s
+Blocking percentage: 79.19%
+CPU active percentage: 20.81%
+
+Context Switches:
+-----------------
+Voluntary: 7330 (process yielding, typically waiting for I/O)
+Involuntary: 436 (preempted by scheduler)
+
+System Call Time Breakdown (from strace):
+------------------------------------------
+
+Network I/O syscalls:
+ 25.84   57.848233     1701418        34         1 epoll_pwait
+  0.20    0.447230        3021       148           pselect6
+  0.01    0.019201          34       555           sendto
+  0.00    0.009222        2305         4           ppoll
+  0.00    0.009025          61       147        75 connect
+  0.00    0.006326          17       369       210 recvfrom
+  0.00    0.000107          21         5         1 epoll_ctl
+  0.00    0.000025          12         2           epoll_create1
+
+Top syscalls by time:
+ 70.94  158.807852      170944       929       176 futex
+ 25.84   57.848233     1701418        34         1 epoll_pwait
+  1.55    3.464314          13    256981    242128 openat
+  0.36    0.794904          48     16294         2 read
+  0.32    0.708286           9     72135     72046 readlinkat
+  0.25    0.553180          12     43681     18995 newfstatat
+  0.20    0.447230        3021       148           pselect6
+  0.10    0.221524          22      9759           munmap
+  0.08    0.174266          11     15126        12 close
+  0.05    0.116108          19      5838           mmap
+
+Summary line:
+  (no data)
+
+Interpretation:
+---------------
+⚠️  MODERATELY I/O BOUND (79.19% blocked)
+
+The worker spends 79.19% blocked and 20.81% active.
+There's room for optimization but it's not critically blocked.
+
+Data files:
+-----------
+Time output: blocking_analysis_20251015_233859_time.txt
+Strace output: blocking_analysis_20251015_233859_strace.txt
+This summary: blocking_analysis_20251015_233859_summary.txt
