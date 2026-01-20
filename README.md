@@ -33,8 +33,9 @@ validate blocked time using strace being spent on epoll_wait and futex.
 
 # results
 
-| Client                    | Sync Calls (blocked on i/o) | Streaming Calls (blocked on i/o) |
-|---------------------------|-----------------------------|----------------------------------|
-| OpenAI Native SDK         | 95.09%                      | 97.36%                           |
-| Stripe Ruby Client (Poll) | N/A                         | 79.19%                           |
+| Client                         | Sync Calls (blocked on i/o) | Streaming Calls (blocked on i/o) |
+|--------------------------------|-----------------------------|----------------------------------|
+| OpenAI Native SDK              | 95.09%                      | 97.36%                           |
+| Stripe Ruby Client (Poll)      | N/A                         | 79.19%                           |
+| Ruby offloading to gRPC (Poll) |                             |                                  |
 
